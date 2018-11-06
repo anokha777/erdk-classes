@@ -232,7 +232,7 @@ h3.h3{text-align:center;padding:1.5em 0em;text-transform:capitalize;font-size:1.
 }
 
 .owl-wrapper {
-  width: 2960px;
+  width: auto;
   left: 0px;
   display: block;
   transition: all 1000ms ease 0s;
