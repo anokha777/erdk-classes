@@ -1,0 +1,48 @@
+.info_btn {
+  height: 129px;
+  background: rgb(41, 64, 97);
+  padding: 0;
+  text-align: center;
+  transition: .3s ease-out;
+  padding-top: 2rem;
+}
+
+.btn_txt1 {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #FFF;
+  text-shadow: 1px 1px #000;
+  margin: 0;
+  padding: 0;
+}
+
+.btn_txt2 {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: normal;
+  color: #FFF;
+  margin: 0;
+  padding: 0;
+}
+
+.info-with-image {
+padding: 30px;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+
+.side-info {
+  margin: 10px;
+}
+
+.info_btn {
+  height: 100px;
+  padding: 10px;
+  transition: .3s ease-out;
+  padding-top: 0;
+}
+}

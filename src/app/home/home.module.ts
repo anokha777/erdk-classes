@@ -6,9 +6,10 @@ import { InfoWithImageComponent } from './info-with-image/info-with-image.compon
 import { MackbookImageInfoComponent } from './mackbook-image-info/mackbook-image-info.component';
 import { SuccessInfoBannerComponent } from './success-info-banner/success-info-banner.component';
 import { TestimonialComponent } from './testimonial/testimonial.component';
+import { HomeComponent } from './home.component';
 
 @NgModule({
-  declarations: [BannerCarouselComponent, HomeBodyComponent, InfoWithImageComponent, MackbookImageInfoComponent, SuccessInfoBannerComponent, TestimonialComponent],
+  declarations: [BannerCarouselComponent, HomeBodyComponent, InfoWithImageComponent, MackbookImageInfoComponent, SuccessInfoBannerComponent, TestimonialComponent, HomeComponent],
   imports: [
     CommonModule
   ]

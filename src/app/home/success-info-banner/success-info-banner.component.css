@@ -1,0 +1,71 @@
+.jss_counter {
+  background: #ebbb76;
+}
+
+.full {
+  width: 100%;
+  float: left;
+}
+
+.jss-row {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+blockquote, dd, div, dl, dt, form, h1, h2, h3, h4, h5, h6, li, ol, p, pre, td, th, ul {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (min-width: 640px) {
+  .jss_count {
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+    padding: 15px 10px;
+  }
+  .row-eq-height {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+  }
+}
+
+.alpha {
+  padding: 0;
+}
+
+.column, .columns {
+  width: 100%;
+  float: left;
+  padding-left: .625rem;
+  padding-right: .625rem;
+}
+
+.jss_count {
+
+  float: left;
+  padding: 15px 10px 20px 10px;
+  color: #000000;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: bold;
+  text-align: center;
+  border-left: 1px solid #dbac68;
+  border-right: 1px solid #dbac68;
+
+}
+
+.jss_count_01 {
+  font-size: 36px;
+  line-height: 42px;
+  color: #78100D;
+  font-weight: bold;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  clear: none;
+  font-family: Arial;
+}
