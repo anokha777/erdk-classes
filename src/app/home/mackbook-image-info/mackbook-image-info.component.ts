@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./mackbook-image-info.component.css']
 })
 export class MackbookImageInfoComponent implements OnInit {
-  imageUrl = 'https://ununsplash.imgix.net/photo-1417024321782-1375735f8987?dpr=2&fit=crop&fm=jpg&h=650&q=75&w=950';
+  imageUrl = '../../../assets/images/mackbook/1.jpg';
   constructor() { }
 
   ngOnInit() {
@@ -14,11 +14,11 @@ export class MackbookImageInfoComponent implements OnInit {
 
   changeimage(slidNumber: string) {
     if (slidNumber === 'one') {
-      this.imageUrl = 'https://ununsplash.imgix.net/photo-1417024321782-1375735f8987?dpr=2&fit=crop&fm=jpg&h=650&q=75&w=950';
+      this.imageUrl = '../../../assets/images/mackbook/1.jpg';
     } else if (slidNumber === 'two') {
-      this.imageUrl = 'https://unsplash.imgix.net/uploads/1411724908903377d4696/2e9b0cb2?dpr=2&fit=crop&fm=jpg&h=650&q=75&w=950';
+      this.imageUrl = '../../../assets/images/mackbook/erdk-banner.jpg';
     } else {
-      this.imageUrl = 'https://ununsplash.imgix.net/photo-1422479516648-9b1f0b6e8da8?dpr=2&fit=crop&fm=jpg&h=650&q=75&w=950';
+      this.imageUrl = '../../../assets/images/mackbook/2.jpg';
     }
 
      }
