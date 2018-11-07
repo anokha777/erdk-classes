@@ -16,6 +16,7 @@ export class HeaderComponent implements OnInit {
   }
 
   expandFunction() {
+    console.log('hhhhhhh');
     this.isMainmenuExpanded = !this.isMainmenuExpanded;
     const shand = document.getElementsByClassName('menuzord-menu') as HTMLCollectionOf<HTMLElement>;
     if (this.isMainmenuExpanded) {

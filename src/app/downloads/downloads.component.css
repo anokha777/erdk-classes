@@ -48,12 +48,17 @@ tr:nth-child(odd)
   text-align: center;
   color: #6b1d35;
   text-transform: uppercase;
-  position: relative;
+  /* position: relative; */
   margin-top: 0;
 }
 
 @media screen and (max-width: 640px) {
   .heading-agileinfo {
     font-size: 20px;
+    /* margin-top: 255px; */
+  }
+
+  .mobile-hide {
+    display: none;
   }
 }
