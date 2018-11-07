@@ -1,4 +1,4 @@
-.jss_counter {
+.erdk_counter {
   background: #ebbb76;
 }
 
@@ -7,7 +7,7 @@
   float: left;
 }
 
-.jss-row {
+.erdk-row {
   padding-left: 30px;
   padding-right: 30px;
 }
@@ -18,7 +18,7 @@ blockquote, dd, div, dl, dt, form, h1, h2, h3, h4, h5, h6, li, ol, p, pre, td, t
 }
 
 @media screen and (min-width: 640px) {
-  .jss_count {
+  .erdk_count {
     width: 100%;
     border: 0;
     border-bottom: 1px solid rgba(255,255,255,0.5);
@@ -43,7 +43,7 @@ blockquote, dd, div, dl, dt, form, h1, h2, h3, h4, h5, h6, li, ol, p, pre, td, t
   padding-right: .625rem;
 }
 
-.jss_count {
+.erdk_count {
 
   float: left;
   padding: 15px 10px 20px 10px;
@@ -57,7 +57,7 @@ blockquote, dd, div, dl, dt, form, h1, h2, h3, h4, h5, h6, li, ol, p, pre, td, t
 
 }
 
-.jss_count_01 {
+.erdk_count_01 {
   font-size: 36px;
   line-height: 42px;
   color: #78100D;

@@ -345,7 +345,7 @@ blockquote, dd, div, dl, dt, form, h1, h2, h3, h4, h5, h6, li, ol, p, pre, td, t
     display: block;
   }
 
-  .jss_menu {
+  .erdk_menu {
     padding: 0;
     background: #eee url('../../assets/images/menu.png') no-repeat left top;
     -webkit-border-radius: 0px;
