@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./mackbook-image-info.component.css']
 })
 export class MackbookImageInfoComponent implements OnInit {
-  imageUrl = '../../../assets/images/mackbook/1.jpg';
+  imageUrl = '../../../assets/images/mackbook/erdk-banner.jpg';
   constructor() { }
 
   ngOnInit() {
@@ -14,9 +14,9 @@ export class MackbookImageInfoComponent implements OnInit {
 
   changeimage(slidNumber: string) {
     if (slidNumber === 'one') {
-      this.imageUrl = '../../../assets/images/mackbook/1.jpg';
-    } else if (slidNumber === 'two') {
       this.imageUrl = '../../../assets/images/mackbook/erdk-banner.jpg';
+    } else if (slidNumber === 'two') {
+      this.imageUrl = '../../../assets/images/mackbook/1.jpg';
     } else {
       this.imageUrl = '../../../assets/images/mackbook/2.jpg';
     }

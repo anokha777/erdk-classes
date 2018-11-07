@@ -52,7 +52,7 @@ export class HeaderComponent implements OnInit {
           shand[2].style.display = 'none';
         }
 
-    } if (submenuName === 'Campus Life') {
+    } if (submenuName === 'Downloads') {
       this.isSubmenuCampusLifeExpanded = !this.isSubmenuCampusLifeExpanded;
         if (this.isSubmenuCampusLifeExpanded) {
           shand[0].style.display = 'none';

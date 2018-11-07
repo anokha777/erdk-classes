@@ -12,7 +12,7 @@ div {
   font-size: 40px;
   margin-bottom: 1.9em;
   text-align: center;
-  color: #ff4f81;
+  color: #6b1d35;
   text-transform: uppercase;
   position: relative;
   margin-top: 3rem;
@@ -85,12 +85,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .grid1:hover {
-  background: #8ee9e4;
+  background: #ec804e;
 }
 
 .grid1 i.fa {
   font-size: 40px;
-  color: #8080ff;
+  color: #3d666d;
 }
 
 .fa {
