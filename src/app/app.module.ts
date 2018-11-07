@@ -13,6 +13,11 @@ import { InfoWithImageComponent } from './home/info-with-image/info-with-image.c
 import { MackbookImageInfoComponent } from './home/mackbook-image-info/mackbook-image-info.component';
 import { SuccessInfoBannerComponent } from './home/success-info-banner/success-info-banner.component';
 import { TestimonialComponent } from './home/testimonial/testimonial.component';
+import { DownloadsComponent } from './downloads/downloads.component';
+import { ClassTenComponent } from './downloads/class-ten/class-ten.component';
+import { ClassElevenComponent } from './downloads/class-eleven/class-eleven.component';
+import { ClassTwelveComponent } from './downloads/class-twelve/class-twelve.component';
+import { ClassCompetitionComponent } from './downloads/class-competition/class-competition.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +31,12 @@ import { TestimonialComponent } from './home/testimonial/testimonial.component';
     InfoWithImageComponent,
     MackbookImageInfoComponent,
     SuccessInfoBannerComponent,
-    TestimonialComponent
+    TestimonialComponent,
+    DownloadsComponent,
+    ClassTenComponent,
+    ClassElevenComponent,
+    ClassTwelveComponent,
+    ClassCompetitionComponent
   ],
   imports: [
     BrowserModule,
