@@ -1,0 +1,26 @@
+.heading-agileinfo {
+  font-weight: 600;
+  letter-spacing: .5px;
+  font-size: 40px;
+  margin-bottom: 1em;
+  text-align: center;
+  color: #6b1d35;
+  text-transform: uppercase;
+  /* position: relative; */
+  margin-top: 0;
+}
+
+.fa {
+  color: #969b99;
+}
+
+.fa:hover {
+  color: #515353;
+}
+
+@media screen and (max-width: 640px) {
+  .heading-agileinfo {
+    font-size: 20px;
+    /* margin-top: 255px; */
+  }
+}

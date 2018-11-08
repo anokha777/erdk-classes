@@ -18,6 +18,16 @@ import { ClassTenComponent } from './downloads/class-ten/class-ten.component';
 import { ClassElevenComponent } from './downloads/class-eleven/class-eleven.component';
 import { ClassTwelveComponent } from './downloads/class-twelve/class-twelve.component';
 import { ClassCompetitionComponent } from './downloads/class-competition/class-competition.component';
+import { AboutComponent } from './about/about.component';
+import { OrganizationComponent } from './about/organization/organization.component';
+import { WhyErdkComponent } from './about/why-erdk/why-erdk.component';
+import { AboutErdkComponent } from './about/about-erdk/about-erdk.component';
+import { DirectorMessageComponent } from './about/director-message/director-message.component';
+import { BatchesComponent } from './batches/batches.component';
+import { BatchClassTenComponent } from './batches/batch-class-ten/batch-class-ten.component';
+import { BatchClassElevenComponent } from './batches/batch-class-eleven/batch-class-eleven.component';
+import { BatchClassTwelveComponent } from './batches/batch-class-twelve/batch-class-twelve.component';
+import { BatchCompetitionComponent } from './batches/batch-competition/batch-competition.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +46,17 @@ import { ClassCompetitionComponent } from './downloads/class-competition/class-c
     ClassTenComponent,
     ClassElevenComponent,
     ClassTwelveComponent,
-    ClassCompetitionComponent
+    ClassCompetitionComponent,
+    AboutComponent,
+    OrganizationComponent,
+    WhyErdkComponent,
+    AboutErdkComponent,
+    DirectorMessageComponent,
+    BatchesComponent,
+    BatchClassTenComponent,
+    BatchClassElevenComponent,
+    BatchClassTwelveComponent,
+    BatchCompetitionComponent
   ],
   imports: [
     BrowserModule,
