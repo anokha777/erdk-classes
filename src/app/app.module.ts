@@ -35,6 +35,7 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { AdmissionComponent } from './admission/admission.component';
 import { OurMissionComponent } from './our-mission/our-mission.component';
 import { OurVissionComponent } from './our-vission/our-vission.component';
+import { GalleryComponent } from './gallery/gallery.component';
 
 @NgModule({
   declarations: [
@@ -70,7 +71,8 @@ import { OurVissionComponent } from './our-vission/our-vission.component';
     ContactUsComponent,
     AdmissionComponent,
     OurMissionComponent,
-    OurVissionComponent
+    OurVissionComponent,
+    GalleryComponent
   ],
   imports: [
     BrowserModule,

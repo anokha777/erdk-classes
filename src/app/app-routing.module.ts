@@ -23,6 +23,7 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { AdmissionComponent } from './admission/admission.component';
 import { OurMissionComponent } from './our-mission/our-mission.component';
 import { OurVissionComponent } from './our-vission/our-vission.component';
+import { GalleryComponent } from './gallery/gallery.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent},
@@ -48,6 +49,7 @@ const routes: Routes = [
   { path: 'admission', component: AdmissionComponent },
   { path: 'mission', component: OurMissionComponent},
   { path: 'vission', component: OurVissionComponent},
+  { path: 'gallary', component: GalleryComponent},
 ];
 
 @NgModule({
