@@ -1,0 +1,14 @@
+.contact-image {
+  border: 2px solid black;
+  padding: 150px;
+  background: url(../../assets/images/bg4.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 400px;
+}
+
+@media screen and (max-width: 640px) {
+  .contact-image {
+    padding: 50px;
+    background-size: 100% 200px;
+  }
+}

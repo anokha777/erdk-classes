@@ -31,6 +31,10 @@ import { BatchCompetitionComponent } from './batches/batch-competition/batch-com
 import { NotificationsComponent } from './notifications/notifications.component';
 import { FeeComponent } from './fee/fee.component';
 import { TestEvaluationComponent } from './test-evaluation/test-evaluation.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
+import { AdmissionComponent } from './admission/admission.component';
+import { OurMissionComponent } from './our-mission/our-mission.component';
+import { OurVissionComponent } from './our-vission/our-vission.component';
 
 @NgModule({
   declarations: [
@@ -62,7 +66,11 @@ import { TestEvaluationComponent } from './test-evaluation/test-evaluation.compo
     BatchCompetitionComponent,
     NotificationsComponent,
     FeeComponent,
-    TestEvaluationComponent
+    TestEvaluationComponent,
+    ContactUsComponent,
+    AdmissionComponent,
+    OurMissionComponent,
+    OurVissionComponent
   ],
   imports: [
     BrowserModule,
