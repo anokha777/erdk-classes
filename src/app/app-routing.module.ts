@@ -16,6 +16,9 @@ import { BatchClassTenComponent } from './batches/batch-class-ten/batch-class-te
 import { BatchClassElevenComponent } from './batches/batch-class-eleven/batch-class-eleven.component';
 import { BatchClassTwelveComponent } from './batches/batch-class-twelve/batch-class-twelve.component';
 import { BatchCompetitionComponent } from './batches/batch-competition/batch-competition.component';
+import { NotificationsComponent } from './notifications/notifications.component';
+import { FeeComponent } from './fee/fee.component';
+import { TestEvaluationComponent } from './test-evaluation/test-evaluation.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent},
@@ -34,6 +37,9 @@ const routes: Routes = [
   { path: 'batches/eleven', component: BatchClassElevenComponent },
   { path: 'batches/twelve', component: BatchClassTwelveComponent },
   { path: 'batches/competition', component: BatchCompetitionComponent },
+  { path: 'notifications', component: NotificationsComponent },
+  { path: 'fee', component: FeeComponent },
+  { path: 'test-eval', component: TestEvaluationComponent},
 ];
 
 @NgModule({

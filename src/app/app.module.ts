@@ -28,6 +28,9 @@ import { BatchClassTenComponent } from './batches/batch-class-ten/batch-class-te
 import { BatchClassElevenComponent } from './batches/batch-class-eleven/batch-class-eleven.component';
 import { BatchClassTwelveComponent } from './batches/batch-class-twelve/batch-class-twelve.component';
 import { BatchCompetitionComponent } from './batches/batch-competition/batch-competition.component';
+import { NotificationsComponent } from './notifications/notifications.component';
+import { FeeComponent } from './fee/fee.component';
+import { TestEvaluationComponent } from './test-evaluation/test-evaluation.component';
 
 @NgModule({
   declarations: [
@@ -56,7 +59,10 @@ import { BatchCompetitionComponent } from './batches/batch-competition/batch-com
     BatchClassTenComponent,
     BatchClassElevenComponent,
     BatchClassTwelveComponent,
-    BatchCompetitionComponent
+    BatchCompetitionComponent,
+    NotificationsComponent,
+    FeeComponent,
+    TestEvaluationComponent
   ],
   imports: [
     BrowserModule,
