@@ -36,6 +36,7 @@ import { AdmissionComponent } from './admission/admission.component';
 import { OurMissionComponent } from './our-mission/our-mission.component';
 import { OurVissionComponent } from './our-vission/our-vission.component';
 import { GalleryComponent } from './gallery/gallery.component';
+import { AchievementsComponent } from './achievements/achievements.component';
 
 @NgModule({
   declarations: [
@@ -72,7 +73,8 @@ import { GalleryComponent } from './gallery/gallery.component';
     AdmissionComponent,
     OurMissionComponent,
     OurVissionComponent,
-    GalleryComponent
+    GalleryComponent,
+    AchievementsComponent
   ],
   imports: [
     BrowserModule,

@@ -24,6 +24,7 @@ import { AdmissionComponent } from './admission/admission.component';
 import { OurMissionComponent } from './our-mission/our-mission.component';
 import { OurVissionComponent } from './our-vission/our-vission.component';
 import { GalleryComponent } from './gallery/gallery.component';
+import { AchievementsComponent } from './achievements/achievements.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent},
@@ -50,6 +51,7 @@ const routes: Routes = [
   { path: 'mission', component: OurMissionComponent},
   { path: 'vission', component: OurVissionComponent},
   { path: 'gallary', component: GalleryComponent},
+  { path: 'achievements', component: AchievementsComponent },
 ];
 
 @NgModule({
