@@ -139,6 +139,7 @@ h3.h3{text-align:center;padding:1.5em 0em;text-transform:capitalize;font-size:1.
 /******************  News Slider Demo-2 *******************/
 .demo{
     background: linear-gradient(to right,#ffcccc,#d3d3d3);
+    
 }
 .post-slide2{
     margin: 0 15px;
@@ -272,3 +273,67 @@ h3.h3{text-align:center;padding:1.5em 0em;text-transform:capitalize;font-size:1.
   }
 }
 
+/* .ad-row {
+  position: absolute;
+  top: 120%;
+  right: 1rem;
+  width: 9rem;
+  height: 20rem;
+  border-radius: 5px;
+}
+
+.truncate {
+  color: #34345a;
+  position: absolute;
+  top: 55%;
+  text-align: center;
+}
+
+.truncate:hover {
+  color: #5e8188;
+} */
+
+.amazon-ad {
+  position: absolute;
+  top: 120%;
+  right: 1rem;
+  width: 9rem;
+  height: 15rem;
+  border-radius: 5px;
+  text-align: center;
+
+  width: 150px;
+  box-shadow: 0 8px 8px 0 rgb(122, 120, 117);
+
+}
+
+.ad-content {
+  margin-top: 2rem;
+  background-color: rgb(206, 126, 21);
+
+}
+.ad-content:hover{
+  box-shadow: 0 10px 10px 0 rgb(22, 20, 20);
+}
+
+.amazon-ad-container {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  /* padding: 10px 10px; */
+  width: 80%;
+  padding: 5px 10px;
+}
+.ad-image {
+  display: block;
+  width:100%;
+  margin: auto;
+
+}
+
+.ad-link {
+  text-decoration: none;
+}
+
+.ad-link:hover { 
+  color: crimson;
+}
